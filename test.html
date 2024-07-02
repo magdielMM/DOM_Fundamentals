@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <header>Evaluation Unit 2</header>
+    <script>
+        const p = document.createElement('p');
+        const d = document.createElement('div');
+        const i = document.createElement('input');
+        const nav = document.createElement('nav');
+        const u = document.createElement('ul');
+        const liS = document.createElement('li');
+        const liW = document.createElement('li');
+        const liH = document.createElement('li');
+
+
+        p.textContent = 'Hiii';
+        d.textContent = 'leave a comment'
+        liS.textContent = 'School';
+        liW.textContent = 'Work';
+        liH.textContent = 'Hobbies'
+    
+
+        d.appendChild(i);
+        u.appendChild(liS);
+        u.appendChild(liW);
+        u.appendChild(liH);
+        nav.appendChild(u);
+
+        document.body.appendChild(p);
+        document.body.appendChild(d);
+        document.body.appendChild(nav)
+
+
+        
+
+
+    </script>
+</body>
+</html>

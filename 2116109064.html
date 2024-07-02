@@ -7,12 +7,20 @@
 </head>
 <body>
     <script>    
+    
         const h1 = document.createElement('h1')
         h1.textContent = 'Este h1 es de Magdiel'
         h1.setAttribute('style', 'color: blue;')
         document.body.append(h1)
 
-        
+        // Selecciona el elemento con id "miElemento"
+        var elemento = document.getElementById("miElemento");
+
+        // Agrega la clase "activo" al elemento
+        elemento.classList.add("activo");
+
+
+
     </script>
 </body>
 </html>
